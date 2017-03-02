@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         TextView tvSonuc =(TextView) findViewById(R.id.tvSonuc);
 
         String ad=etAd.getText().toString().trim().toLowerCase();
+        while (ad != ad.replace("  ", " ") ) {
+            ad = ad.replace("  ", " ");
+        }
         String soyad=etSoyad.getText().toString().trim().toUpperCase();
         String[] sıra;
 
