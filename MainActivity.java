@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-
                 ad=sıra[0].substring(0,1).toUpperCase() + sıra[0].substring(1,sıra[0].length()) ;
                 for (int i=1; i<sıra.length; i++) {
                     sıra[i] = sıra[i].substring(0,1).toUpperCase()+".";
